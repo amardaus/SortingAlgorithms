@@ -1,0 +1,14 @@
+//
+// Created by olcia on 21.11.2019.
+//
+
+#ifndef SORTINGALGORITHMS_BUBBLESORT_H
+#define SORTINGALGORITHMS_BUBBLESORT_H
+
+
+class BubbleSort {
+
+};
+
+
+#endif //SORTINGALGORITHMS_BUBBLESORT_H

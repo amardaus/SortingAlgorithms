@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/BubbleSort.cpp
+BubbleSort.h
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/BubbleSort.h
+iostream
+-
+array
+-
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/BubbleSort.h
+

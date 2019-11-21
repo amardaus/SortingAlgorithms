@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.cpp
+RadixSort.h
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.h
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.h
+

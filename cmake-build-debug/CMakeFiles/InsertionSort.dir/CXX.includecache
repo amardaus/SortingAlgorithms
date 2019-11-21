@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.cpp
+InsertionSort.h
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.h
+iostream
+-
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.h
+

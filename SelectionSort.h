@@ -1,0 +1,14 @@
+//
+// Created by olcia on 21.11.2019.
+//
+
+#ifndef SORTINGALGORITHMS_SELECTIONSORT_H
+#define SORTINGALGORITHMS_SELECTIONSORT_H
+
+
+class SelectionSort {
+
+};
+
+
+#endif //SORTINGALGORITHMS_SELECTIONSORT_H

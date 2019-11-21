@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.cpp
+CountingSort.h
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.h
+iostream
+-
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.h
+
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/main.cpp
+iostream
+-
+

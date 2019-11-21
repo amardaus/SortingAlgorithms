@@ -1,0 +1,14 @@
+//
+// Created by olcia on 21.11.2019.
+//
+
+#ifndef SORTINGALGORITHMS_COUNTINGSORT_H
+#define SORTINGALGORITHMS_COUNTINGSORT_H
+
+
+class CountingSort {
+
+};
+
+
+#endif //SORTINGALGORITHMS_COUNTINGSORT_H
