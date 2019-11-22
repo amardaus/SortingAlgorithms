@@ -8,13 +8,13 @@ constexpr int size = 10;
 
 using namespace std;
 
-void print(int* arr, int s){
+void print(int arr[], int s){
     for (int i = 0; i < s; i++)
-        cout << arr[i];
+        cout << arr[i] << " ";
     cout << endl;
 }
 
-int* sort(int* arr){
+void sort(int arr[]){
 
     int min, pos;
 
@@ -29,16 +29,13 @@ int* sort(int* arr){
         }
         arr[pos] = min;
     }
-
-    print(arr, size);
-
-    return arr;
 }
 
 
 int main() {
     int arr[size] = {6, 5, 6, 2, 8, 1, 4, 6, 7, 6};
     sort(arr);
+    print(arr, size);
 
     return 0;
 }

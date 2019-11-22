@@ -28,14 +28,14 @@ array<int, size> sort(array<int, size> arr){
         i++;
     }
 
-    print(arr, size);
     return arr;
 }
 
 
 int main() {
     array<int, size> arr = {6, 5, 6, 2, 8, 1, 4, 6, 7, 6};
-    sort(arr);
+    arr = sort(arr);
+    print(arr, size);
 
     return 0;
 }

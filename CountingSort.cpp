@@ -11,13 +11,13 @@ constexpr int size = 10;
 
 using namespace std;
 
-void print(int* arr, int s){
+void print(int arr[], int s){
     for (int i = 0; i < s; i++)
-        cout << arr[i];
+        cout << arr[i] << " ";
     cout << endl;
 }
 
-int* sort(int* arr){
+void sort(int arr[]){
     int max = *(std::max_element(arr, arr + size));
     max++;
 
@@ -48,7 +48,11 @@ int* sort(int* arr){
         res[count[arr[i]]] = arr[i];
         count[arr[i]]++;
     }
-    print(res, size);
+    //print(res, size);
+
+    for(int i = 0; i < size; i++){
+        arr[i] = res[i];
+    }
 
     return res;
 }
@@ -57,6 +61,7 @@ int* sort(int* arr){
 int main() {
     int arr[size] = {6, 5, 6, 2, 8, 1, 4, 6, 7, 6};
     sort(arr);
+    print(arr, size);
 
     return 0;
 }
