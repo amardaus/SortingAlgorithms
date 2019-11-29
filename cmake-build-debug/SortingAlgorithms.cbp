@@ -328,6 +328,12 @@
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.h">
 			<Option target="SortingAlgorithms"/>
 		</Unit>
+		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort.cpp">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort.h">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.cpp">
 			<Option target="SortingAlgorithms"/>
 			<Option target="InsertionSort"/>

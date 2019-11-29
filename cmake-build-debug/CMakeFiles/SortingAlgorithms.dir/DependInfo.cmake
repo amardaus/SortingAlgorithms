@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/BubbleSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/BubbleSort.cpp.o"
   "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/CountingSort.cpp.o"
+  "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/HeapSort.cpp.o"
   "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/InsertionSort.cpp.o"
   "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/RadixSort.cpp.o"
   "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/SelectionSort.cpp" "/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir/SelectionSort.cpp.o"

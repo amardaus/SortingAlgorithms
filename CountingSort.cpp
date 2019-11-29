@@ -54,7 +54,7 @@ void sort(int arr[]){
         arr[i] = res[i];
     }
 
-    return res;
+    //return res;
 }
 
 
