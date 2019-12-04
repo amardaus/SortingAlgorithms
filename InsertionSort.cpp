@@ -2,7 +2,6 @@
 // Created by olcia on 21.11.2019.
 //
 
-#include "InsertionSort.h"
 #include <iostream>
 constexpr int size = 10;
 

@@ -2,7 +2,6 @@
 // Created by olcia on 21.11.2019.
 //
 
-#include "SelectionSort.h"
 #include <iostream>
 #include <algorithm>
 #include <array>

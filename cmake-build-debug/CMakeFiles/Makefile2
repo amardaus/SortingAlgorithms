@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgori
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/HeapSort_Iterative.dir/all
+all: CMakeFiles/HeapSort_Recursive.dir/all
 all: CMakeFiles/CountingSort.dir/all
 all: CMakeFiles/SelectionSort.dir/all
 all: CMakeFiles/SortingAlgorithms.dir/all
@@ -63,6 +65,8 @@ all: CMakeFiles/BubbleSort.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/HeapSort_Iterative.dir/clean
+clean: CMakeFiles/HeapSort_Recursive.dir/clean
 clean: CMakeFiles/CountingSort.dir/clean
 clean: CMakeFiles/SelectionSort.dir/clean
 clean: CMakeFiles/SortingAlgorithms.dir/clean
@@ -76,6 +80,60 @@ clean: CMakeFiles/BubbleSort.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/HeapSort_Iterative.dir
+
+# All Build rule for target.
+CMakeFiles/HeapSort_Iterative.dir/all:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/depend
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target HeapSort_Iterative"
+.PHONY : CMakeFiles/HeapSort_Iterative.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HeapSort_Iterative.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HeapSort_Iterative.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HeapSort_Iterative.dir/rule
+
+# Convenience name for target.
+HeapSort_Iterative: CMakeFiles/HeapSort_Iterative.dir/rule
+
+.PHONY : HeapSort_Iterative
+
+# clean rule for target.
+CMakeFiles/HeapSort_Iterative.dir/clean:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/clean
+.PHONY : CMakeFiles/HeapSort_Iterative.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HeapSort_Recursive.dir
+
+# All Build rule for target.
+CMakeFiles/HeapSort_Recursive.dir/all:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/depend
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target HeapSort_Recursive"
+.PHONY : CMakeFiles/HeapSort_Recursive.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HeapSort_Recursive.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HeapSort_Recursive.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HeapSort_Recursive.dir/rule
+
+# Convenience name for target.
+HeapSort_Recursive: CMakeFiles/HeapSort_Recursive.dir/rule
+
+.PHONY : HeapSort_Recursive
+
+# clean rule for target.
+CMakeFiles/HeapSort_Recursive.dir/clean:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/clean
+.PHONY : CMakeFiles/HeapSort_Recursive.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CountingSort.dir
@@ -111,7 +169,7 @@ CMakeFiles/CountingSort.dir/clean:
 CMakeFiles/SelectionSort.dir/all:
 	$(MAKE) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/depend
 	$(MAKE) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target SelectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target SelectionSort"
 .PHONY : CMakeFiles/SelectionSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,12 +196,12 @@ CMakeFiles/SelectionSort.dir/clean:
 CMakeFiles/SortingAlgorithms.dir/all:
 	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/depend
 	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15,16,17 "Built target SortingAlgorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target SortingAlgorithms"
 .PHONY : CMakeFiles/SortingAlgorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SortingAlgorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SortingAlgorithms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SortingAlgorithms.dir/rule
@@ -165,7 +223,7 @@ CMakeFiles/SortingAlgorithms.dir/clean:
 CMakeFiles/InsertionSort.dir/all:
 	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/depend
 	$(MAKE) -f CMakeFiles/InsertionSort.dir/build.make CMakeFiles/InsertionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target InsertionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target InsertionSort"
 .PHONY : CMakeFiles/InsertionSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,7 +250,7 @@ CMakeFiles/InsertionSort.dir/clean:
 CMakeFiles/RadixSort.dir/all:
 	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/depend
 	$(MAKE) -f CMakeFiles/RadixSort.dir/build.make CMakeFiles/RadixSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target RadixSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target RadixSort"
 .PHONY : CMakeFiles/RadixSort.dir/all
 
 # Build rule for subdir invocation for target.

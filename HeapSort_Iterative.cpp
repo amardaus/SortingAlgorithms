@@ -2,7 +2,6 @@
 // Created by olcia on 23.11.2019.
 //
 
-#include "HeapSort.h"
 #include <iostream>
 #include <array>
 constexpr int MAX_SIZE = 100;

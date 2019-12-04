@@ -37,6 +37,98 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="HeapSort_Iterative">
+				<Option output="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/HeapSort_Iterative" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort_Iterative"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HeapSort_Iterative/fast">
+				<Option output="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/HeapSort_Iterative" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort_Iterative/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HeapSort_Recursive">
+				<Option output="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/HeapSort_Recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort_Recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HeapSort_Recursive/fast">
+				<Option output="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/HeapSort_Recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 HeapSort_Recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CountingSort">
 				<Option output="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CountingSort" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug"/>
@@ -318,41 +410,26 @@
 			<Option target="SortingAlgorithms"/>
 			<Option target="BubbleSort"/>
 		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/BubbleSort.h">
-			<Option target="SortingAlgorithms"/>
-		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.cpp">
 			<Option target="CountingSort"/>
 			<Option target="SortingAlgorithms"/>
 		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CountingSort.h">
-			<Option target="SortingAlgorithms"/>
+		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort_Iterative.cpp">
+			<Option target="HeapSort_Iterative"/>
 		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort.cpp">
-			<Option target="SortingAlgorithms"/>
-		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort.h">
-			<Option target="SortingAlgorithms"/>
+		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/HeapSort_Recursive.cpp">
+			<Option target="HeapSort_Recursive"/>
 		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.cpp">
 			<Option target="SortingAlgorithms"/>
 			<Option target="InsertionSort"/>
 		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/InsertionSort.h">
-			<Option target="SortingAlgorithms"/>
-		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.cpp">
 			<Option target="SortingAlgorithms"/>
 			<Option target="RadixSort"/>
 		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/RadixSort.h">
-			<Option target="SortingAlgorithms"/>
-		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/SelectionSort.cpp">
 			<Option target="SelectionSort"/>
-			<Option target="SortingAlgorithms"/>
-		</Unit>
-		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/SelectionSort.h">
 			<Option target="SortingAlgorithms"/>
 		</Unit>
 		<Unit filename="/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/CMakeLists.txt">

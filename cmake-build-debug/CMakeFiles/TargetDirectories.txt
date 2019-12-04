@@ -1,5 +1,7 @@
 /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/HeapSort_Iterative.dir
+/home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/HeapSort_Recursive.dir
 /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/CountingSort.dir
 /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SelectionSort.dir
 /home/olcia/Documents/AlgorytmyiStrukturyDanych/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir

@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HeapSort_Iterative
+
+# Build rule for target.
+HeapSort_Iterative: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HeapSort_Iterative
+.PHONY : HeapSort_Iterative
+
+# fast build rule for target.
+HeapSort_Iterative/fast:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/build
+.PHONY : HeapSort_Iterative/fast
+
+#=============================================================================
+# Target rules for targets named HeapSort_Recursive
+
+# Build rule for target.
+HeapSort_Recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HeapSort_Recursive
+.PHONY : HeapSort_Recursive
+
+# fast build rule for target.
+HeapSort_Recursive/fast:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/build
+.PHONY : HeapSort_Recursive/fast
+
+#=============================================================================
 # Target rules for targets named CountingSort
 
 # Build rule for target.
@@ -248,32 +274,59 @@ CountingSort.cpp.s:
 	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/CountingSort.cpp.s
 .PHONY : CountingSort.cpp.s
 
-HeapSort.o: HeapSort.cpp.o
+HeapSort_Iterative.o: HeapSort_Iterative.cpp.o
 
-.PHONY : HeapSort.o
+.PHONY : HeapSort_Iterative.o
 
 # target to build an object file
-HeapSort.cpp.o:
-	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/HeapSort.cpp.o
-.PHONY : HeapSort.cpp.o
+HeapSort_Iterative.cpp.o:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/HeapSort_Iterative.cpp.o
+.PHONY : HeapSort_Iterative.cpp.o
 
-HeapSort.i: HeapSort.cpp.i
+HeapSort_Iterative.i: HeapSort_Iterative.cpp.i
 
-.PHONY : HeapSort.i
+.PHONY : HeapSort_Iterative.i
 
 # target to preprocess a source file
-HeapSort.cpp.i:
-	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/HeapSort.cpp.i
-.PHONY : HeapSort.cpp.i
+HeapSort_Iterative.cpp.i:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/HeapSort_Iterative.cpp.i
+.PHONY : HeapSort_Iterative.cpp.i
 
-HeapSort.s: HeapSort.cpp.s
+HeapSort_Iterative.s: HeapSort_Iterative.cpp.s
 
-.PHONY : HeapSort.s
+.PHONY : HeapSort_Iterative.s
 
 # target to generate assembly for a file
-HeapSort.cpp.s:
-	$(MAKE) -f CMakeFiles/SortingAlgorithms.dir/build.make CMakeFiles/SortingAlgorithms.dir/HeapSort.cpp.s
-.PHONY : HeapSort.cpp.s
+HeapSort_Iterative.cpp.s:
+	$(MAKE) -f CMakeFiles/HeapSort_Iterative.dir/build.make CMakeFiles/HeapSort_Iterative.dir/HeapSort_Iterative.cpp.s
+.PHONY : HeapSort_Iterative.cpp.s
+
+HeapSort_Recursive.o: HeapSort_Recursive.cpp.o
+
+.PHONY : HeapSort_Recursive.o
+
+# target to build an object file
+HeapSort_Recursive.cpp.o:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/HeapSort_Recursive.cpp.o
+.PHONY : HeapSort_Recursive.cpp.o
+
+HeapSort_Recursive.i: HeapSort_Recursive.cpp.i
+
+.PHONY : HeapSort_Recursive.i
+
+# target to preprocess a source file
+HeapSort_Recursive.cpp.i:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/HeapSort_Recursive.cpp.i
+.PHONY : HeapSort_Recursive.cpp.i
+
+HeapSort_Recursive.s: HeapSort_Recursive.cpp.s
+
+.PHONY : HeapSort_Recursive.s
+
+# target to generate assembly for a file
+HeapSort_Recursive.cpp.s:
+	$(MAKE) -f CMakeFiles/HeapSort_Recursive.dir/build.make CMakeFiles/HeapSort_Recursive.dir/HeapSort_Recursive.cpp.s
+.PHONY : HeapSort_Recursive.cpp.s
 
 InsertionSort.o: InsertionSort.cpp.o
 
@@ -373,6 +426,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... HeapSort_Iterative"
+	@echo "... HeapSort_Recursive"
 	@echo "... CountingSort"
 	@echo "... SelectionSort"
 	@echo "... SortingAlgorithms"
@@ -385,9 +440,12 @@ help:
 	@echo "... CountingSort.o"
 	@echo "... CountingSort.i"
 	@echo "... CountingSort.s"
-	@echo "... HeapSort.o"
-	@echo "... HeapSort.i"
-	@echo "... HeapSort.s"
+	@echo "... HeapSort_Iterative.o"
+	@echo "... HeapSort_Iterative.i"
+	@echo "... HeapSort_Iterative.s"
+	@echo "... HeapSort_Recursive.o"
+	@echo "... HeapSort_Recursive.i"
+	@echo "... HeapSort_Recursive.s"
 	@echo "... InsertionSort.o"
 	@echo "... InsertionSort.i"
 	@echo "... InsertionSort.s"

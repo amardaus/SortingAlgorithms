@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/HeapSort_Iterative.dir/DependInfo.cmake"
+  "CMakeFiles/HeapSort_Recursive.dir/DependInfo.cmake"
   "CMakeFiles/CountingSort.dir/DependInfo.cmake"
   "CMakeFiles/SelectionSort.dir/DependInfo.cmake"
   "CMakeFiles/SortingAlgorithms.dir/DependInfo.cmake"
